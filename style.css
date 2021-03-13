@@ -1,0 +1,281 @@
+*{
+	position: relative;
+	box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float: left;
+	width: 100%;
+}
+
+@media only screen and (min-width: 200px){  
+    .col-m-6 {width: 50%;}
+}
+
+@media only screen and (min-width: 600px){ 
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;} 
+}
+ 
+@media only screen and (min-width: 768px){ 
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+}
+
+body {
+	background-color: #3a3737;
+	padding-top: 20px;
+	font-family: 'Cuprum', sans-serif;
+    box-shadow: 0 11px 10px 5px #DEDEDE;	
+}	
+ 
+.navBar ul li a , .bottom a , .overTop ul li a {
+	color: #000;
+}
+ 	
+html, body  {
+	margin: auto;
+	height: auto;
+}
+ 
+html, .navBar {
+	max-width:1280px; 
+}
+ 
+img{
+	margin: auto;
+ } 
+ 
+ h1, h2{
+	margin:0; 
+	text-align: left;
+ }	
+  
+h1 a , h2 a{
+	color: #000;
+ }	 
+  
+.head {
+	display: block; 
+	font-size: 2em;
+	text-decoration: none; 
+	text-align: center;
+ }	
+	
+header {
+	top: 35px;
+	background-color: gray;
+	height: auto; 
+	font-size: 1.8em; 
+	padding-bottom: 5%;
+ }	
+
+.main{
+	height: auto; 
+}
+
+.material-icons { font-size: 17px; }
+ 
+h2 .material-icons { font-size: 30px; }
+ 
+.active{
+	background-color: #AAA;
+ } 
+ 
+.navBar { 
+	height: auto; 
+	z-index: 2; 
+	position: fixed; 
+	top: 0;
+	margin:0;
+	padding: 0;  
+}
+  
+.navBar ul{
+	list-style-type: none;
+	overflow: hidden;
+	height: auto;
+	background-color: #F0F0F0; 
+	margin:0;
+	padding: 0;  
+}
+
+.navBar ul li {
+	float: left; 
+	font-size: 1.2em; 
+}
+
+.navBar ul li a {
+	display:block;
+	padding: 17px;
+	text-decoration: none;
+}
+
+.navBar ul li a:hover, .menu ul li a:hover {
+	background-color: #AAA;
+} 
+
+.main {
+	background-color: #DBDBDB;
+}
+  
+.main{  
+	font-size: 1.2em; 
+	height:auto; 
+ } 
+
+.menu { 
+	display: block;  
+	margin:0;
+	padding: 0;   
+}
+  
+.menu ul{
+	list-style-type: none;
+	overflow: hidden;
+	height: auto; 
+	margin:0;
+	padding: 0;  
+}
+
+.menu ul li {
+	display: block; 
+	float: left;
+	font-size: 1.2em; 
+}
+
+.menu ul li a {
+	display:block;
+	color: #000;
+	padding: 17px;
+	text-decoration: none;
+} 
+	
+article, div {
+	padding: 40px 0 50px 0; 
+}
+  
+.blue { 
+	background-color: #FFF; 
+	font-size: 1.5em; 
+	padding: 4%;
+	text-align: justify;
+	height: auto; 
+}
+  
+.blue a{    
+	text-decoration: none; 
+	color: #F00;
+}
+
+.myImg{
+	width: 60%; 
+	border-radius: 50%;
+	margin: 5% 20% 5% 20%;
+ } 
+ 
+.yellow { 
+	background-color: #DBDBDB;
+	font-size: 1.5em; 
+	padding: 2%; 
+	text-align: justify;
+	height: auto; 
+}  
+  
+.definition{  
+	border: solid #000 2px;
+	border-radius: 15px; 
+	background-color: #FF0000;
+	padding: 1%; 
+	box-shadow:11px 11px 0 0 #000; 
+}  
+  
+.index{	 
+	display: inline;  
+	padding: 0; 
+}   
+  
+.index ul{    
+	margin: 0; 
+	padding: 0; 
+	text-align: right;  
+}    
+  
+.index ul li{ 
+	width: 65px; 
+	display: inline-block;    
+}  
+
+.index ul li a {     
+	display: block;  
+	padding: 15px;   
+	text-align: center;  
+	border-radius: 50%; 
+	border: solid #000 3px;
+}
+
+.index ul li a:hover {    
+	background-color: #AAA;   
+}  
+
+footer{
+	height: auto; 
+}
+
+.navBottom { 
+	height: auto; 
+	z-index: 2;  
+	top: 0;
+	margin:0;
+	padding: 0;  
+}
+
+.navBottom  ul {
+	list-style-type: none;
+	overflow: hidden;
+	height: auto;
+	background-color: gray; 
+	margin:0;
+	padding: 0;  
+}
+
+.navBottom ul li {
+	float: left;
+	font-size: 1.2em; 
+}
+
+.navBottom ul li a {
+	display:block;
+	padding: 17px;
+	text-decoration: none;
+}
+
+.foot{ 
+	margin-top: 4%;
+	padding-top: 0;
+	border-top: solid #000 2px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
